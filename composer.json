@@ -1,0 +1,29 @@
+{
+  "name": "vlsv/extended-laravel-logger",
+  "type": "library",
+  "version": "1.0.1",
+  "description": "Extends the functionality of the default logger by adding the file path and line number where the logger was called to the context.",
+  "keywords": [
+    "log",
+    "logger",
+    "laravel"
+  ],
+  "homepage": "https://github.com/skodnik/extended-laravel-logger",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evgeny Vlasov",
+      "email": "vlasov.evgeny@gmail.com",
+      "homepage": "https://vlsv.me/"
+    }
+  ],
+  "require": {
+    "php": "^7.4||^8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vlsv\\ExtendedLaravelLogger\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
